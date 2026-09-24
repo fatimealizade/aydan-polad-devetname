@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    border: 1px solid #d4af37; /* Qızılı çərçivə */
+}
+
+.sub-title {
+    font-size: 16px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.names {
+    font-size: 36px;
+    color: #2c3e50;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+.description {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.details p {
+    margin: 8px 0;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #b5922f;
+}
+
+.map-btn {
+    background-color: #2c3e50;
+    margin-left: 5px;
+}

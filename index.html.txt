@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dəvətnamə</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Animasiya üçün pulsuz Animate.css kitabxanası -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <!-- Arxa fon musiqisi -->
+    <audio id="myAudio" loop>
+        <source src="media/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card animate__animated animate__fadeInDown">
+        <h2 class="sub-title">Toysa Dəvətlisiniz</h2>
+        <h1 class="names">Polad & Aydan</h1>
+        <p class="description">Bu xüsusi günümüzdə sizi də aramızda görməkdən şad olarıq.</p>
+        
+        <div class="details">
+            <p>📅 <strong>Tarix:</strong> 15 Oktyabr 2026</p>
+            <p>⏰ <strong>Saat:</strong> 18:00</p>
+            <p>📍 <strong>Məkan:</strong> Şadlıq Sarayı, Bakı</p>
+        </div>
+
+        <button id="musicBtn" class="btn">🎵 Musiqini Başlat</button>
+        <a href="https://maps.google.com" target="_blank" class="btn map-btn">📍 Xəritədə Bax</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
